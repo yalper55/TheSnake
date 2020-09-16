@@ -1,4 +1,5 @@
 import random
+import time
 
 
 def bienvenidos():
@@ -6,6 +7,7 @@ def bienvenidos():
     print()
     print("lanzando...")
     print()
+    time.sleep(1)
     dados()
     play()
 
@@ -19,11 +21,13 @@ def dados():
     print("sumando...")
 
     c = a + b
+    time.sleep(1)
     print("El resultado es:", (c))
     print("--------------------------------------------------------------")
 
 
 def play():
+    time.sleep(.5)
     x = input(
         "pulse una tecla para jugar, de lo contrario pulse x para terminar de jugar: ")
     print("--------------------------------------------------------------")
