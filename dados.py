@@ -32,7 +32,8 @@ def play():
         play()
         return
     else:
-        print("gracias por jugar")
+        print("Gracias por jugar!! , vuelva pronto")
+        print("(◕‿◕)っ")
 
 
 bienvenidos()
